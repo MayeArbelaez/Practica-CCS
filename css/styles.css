@@ -5,12 +5,14 @@
   padding: 0%; 
 }
 
+/* Estilo 1*/
+
 body.estilo1 { 
   background-color: #121212;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+body.estilo1 h1 {
     color: #05F2F2;
     text-align: center;
     margin-top: 5%;
@@ -18,33 +20,33 @@ h1 {
 }
 
 
-header p{
+body.estilo1 header p{
     color: white;
     text-align: center;
     margin-bottom: 5%;
 }
 
-section p{
+body.estilo1 section p{
     color: white;
     text-align: left;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
-footer p{
+body.estilo1 footer p{
     color: white;
     text-align: center;
     margin: 2%;
     padding: 2%;
 }
 
-h2 {
+body.estilo1 h2 {
     color: #05F2F2;
     text-align: left;
     justify-content: space-evenly;
 }
 
-main {
+body.estilo1 main {
     color: #0D0D0D;
     display: flex;
     justify-content: center;
@@ -53,7 +55,7 @@ main {
     width: 100%;
     margin: 2%;
 }
-section {
+body.estilo1 section {
     background-color: #262626;
     border: 1px solid #05F2F2;
     border-radius: 12px;
@@ -67,7 +69,7 @@ section {
   
 }
 
-nav {
+body.estilo1 nav {
     display: flex; 
     background-color: black;
     text-align: center;
@@ -76,17 +78,17 @@ nav {
     
 }
 
-a{
+body.estilo1 a{
 
     text-decoration: none;
     color: #05F2F2;
 }
 
-footer{
+body.estilo1 footer{
     background-color: black;
 }
 
-button {
+body.estilo1 button {
     background-color: #05F2F2;
     color: #0D0D0D ;
     border: 1px solid #05F2F2;
@@ -95,3 +97,100 @@ button {
     justify-content: space-evenly;
     width: fit-content;
 }
+
+/*  Estilo 2 */
+body.estilo2 { 
+  background-color: #222222;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body.estilo2 h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+body.estilo2 header p{
+    color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+body.estilo2 section p{
+    color: #222222;
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+body.estilo2 footer p{
+    color: white;
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+}
+
+body.estilo2 h2 {
+    color: #222222;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+body.estilo2 main {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    gap: 1.5%;
+    max-width: 120%;
+    width: 100%;
+    padding: 2%;
+
+}
+body.estilo2 section {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    padding: 3%;
+    text-align: left;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 25%;
+  
+}
+
+body.estilo2 nav {
+    display: flex; 
+    background-color: #333333;
+    text-align: center;
+    padding: 3% 35%;
+    justify-content: space-evenly;
+    
+}
+
+body.estilo2 a{
+
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+body.estilo2 footer{
+    background-color: #222222;
+}
+
+body.estilo2 button {
+    background-color: #222222;
+    color: #ffffff ;
+    border: 1px solid #222222;
+    border-radius: 6px;
+    padding: 2% 4%;
+    justify-content: space-evenly;
+    width: fit-content;
+}
+
+
+
+
+
