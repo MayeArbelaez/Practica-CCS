@@ -1,0 +1,55 @@
+
+* { 
+  box-sizing: border-box; 
+  margin: 0%; 
+  padding: 0%; 
+}
+
+body.estilo1 { 
+  background-color: #262626;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #05F2F2;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+
+p{
+    color: white;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+h2 {
+    color: #05F2F2;
+    text-align: center;
+    margin: 3%;
+}
+
+nav {
+    display: flex; 
+    background-color: black;
+    text-align: center;
+    padding: 3% 35%;
+    justify-content: space-evenly;
+    
+}
+
+a{
+
+    text-decoration: none;
+    color: #05F2F2;
+}
+
+footer{
+    background-color: black;
+}
+
+button {
+    background-color: #05F2F2;
+    color: #0D0D0D ;
+}
